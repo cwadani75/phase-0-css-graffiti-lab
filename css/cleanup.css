@@ -1,1 +1,35 @@
-/* write your override styles here */
+
+/* Reset common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure images and media are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Standardize fonts */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Buttons */
+  button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
